@@ -1,3 +1,19 @@
 .introduction {
+    height: auto;
     background-image: url(../images/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introduction .logo {
+    padding-top: 300px;
+}
+.introduction .welcome {
+    padding-top: 100px;
+}
+.introduction .studio {
+    padding-top: 100px;
+}
+.introduction .mouse {
+    padding-top: 200px;
 }
