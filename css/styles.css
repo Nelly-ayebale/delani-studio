@@ -1,19 +1,20 @@
 .introduction {
-    height: auto;
     background-image: url(../images/backgrounds/h_img.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
-
 .introduction .logo {
     padding-top: 300px;
 }
 .introduction .welcome {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .introduction .studio {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .introduction .mouse {
-    padding-top: 200px;
+    padding-top: 225px;
+    padding-bottom: 30px;
 }
