@@ -47,3 +47,24 @@
     font-size: 20px;
     color: black;
 }
+.portfolio h1 {
+    font-weight: bold;
+}
+.portfolio img {
+    height: 100%;
+    width: 90%;
+    padding-top: 20px;
+}
+.portfolio {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.portfolio2 img {
+    height: 100%;
+    width: 90%;
+   
+}
+.portfolio2 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
