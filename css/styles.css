@@ -1,4 +1,5 @@
 .introduction {
+    height: auto;
     background-image: url(../images/backgrounds/h_img.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -17,4 +18,11 @@
 .introduction .mouse {
     padding-top: 225px;
     padding-bottom: 30px;
+}
+.about-us h1 {
+    font-weight: bold;
+}
+.about-us p {
+   color: black;
+   font-size: 20px;
 }
