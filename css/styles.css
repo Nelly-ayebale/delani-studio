@@ -60,11 +60,30 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-.portfolio img:hover {
-    background-color: white;
-    cursor: pointer;
+.contact {
+    background-image: url(../images/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 300px;
 }
-.portfolio2 img:hover {
-    background-color: white;
-    cursor: pointer;
+.contact .for-form {
+    margin-left: 200px;
+    /* margin-right: 50px; */
+}
+ 
+.contact p {
+    border: 2px solid white;
+    margin-left: 250px;
+    margin-right: 209px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 300px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+.contact .for-form{
+   padding-top: 100px;
 }
