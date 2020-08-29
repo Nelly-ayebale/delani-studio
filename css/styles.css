@@ -36,6 +36,13 @@
 .services .heading {
     padding-top: 100px;
 }
+.what-they-do h1 {
+    padding: 30px;
+    font-weight: bold;
+}
 .design {
     padding-top: 20px;
+}
+.design h1 {
+    font-size: 20px;
 }
