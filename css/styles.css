@@ -50,21 +50,21 @@
 .portfolio h1 {
     font-weight: bold;
 }
-.portfolio img {
-    height: 100%;
-    width: 90%;
-    padding-top: 20px;
-}
+
 .portfolio {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-.portfolio2 img {
-    height: 100%;
-    width: 90%;
-   
-}
+
 .portfolio2 {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.portfolio img:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.portfolio2 img:hover {
+    background-color: white;
+    cursor: pointer;
 }
