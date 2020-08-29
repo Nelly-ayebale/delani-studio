@@ -26,8 +26,16 @@
    font-size: 20px;
 }
 .services {
+    height: auto;
     background-image: url(../images/backgrounds/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 200px;
+}
+.services .heading {
+    padding-top: 100px;
+}
+.outcome br {
+    padding-top: 20px;
 }
