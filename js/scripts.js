@@ -35,3 +35,11 @@ $(document).ready(function () {
 
 });
 
+function feedback() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var comment = document.getElementsByName('message').value;
+    alert(name + " We have received your message. Thankyou for reaching to us");
+
+}
+

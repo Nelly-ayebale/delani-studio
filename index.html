@@ -186,16 +186,22 @@
             </div>
 
             <form>
-                <div class="row">
-                    <div class="col-4 for-form text-center text-white">
+                <div class="row text-white">
+                    <div class="col-4 for-form text-center">
                         <input type="name" id="name" class="form-control" value="" placeholder="Name">
                     </div>
-                    <div class="col-4 for-form text-center text-white">
+                    <div class="col-4 for-form text-center">
                         <input type="email" id="email" class="form-control" value="" placeholder="Email">
                     </div>
                 </div>
                 <div class="comment">
-                    <textarea name="message" rows="12" cols="146" placeholder="Your message here"></textarea>
+                    <textarea name="message" id="comment" rows="12" cols="146"
+                        placeholder="Your message here"></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary" onclick="feedback()">
+                        Submit
+                    </button>
                 </div>
             </form>
 

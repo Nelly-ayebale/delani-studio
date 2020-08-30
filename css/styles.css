@@ -81,6 +81,7 @@
 .comment {
    margin-left: 250px;
    padding-top: 30px;
+  
 }
 /* .contact .for-form{
    padding-top: 100px;
@@ -230,4 +231,16 @@
     font-weight: bold;
     font-size: 30px;
     display: none;
+}
+button {
+    margin-left:  700px;
+    margin-top: 40px;
+}
+input[type=name],input[type=email] {
+    background: transparent;
+    color: white;
+}
+#comment {
+    background: transparent;
+    color: white;
 }
