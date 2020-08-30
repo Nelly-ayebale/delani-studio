@@ -8,16 +8,30 @@ $(document).ready(function () {
     $("#clickable-pro").click(function () {
         $("#pro").toggle();
     })
-
-    $(".text").hide();
-    $(".main-photo").animate({
-        opacity: 1
-    });
-    $(".main-photo").hover(function () {
-        $(this).stop().animate({ opacity: 4 }, 200);
-        $(".text").fadeIn();
-    }, function () {
-        $(this).stop().animate({ opacity: 1 }, 500)
-        $(".text").fadeOut();
+    $("#image1").hover(function () {
+        $(".text1").toggle();
     })
-})
+    $("#image2").hover(function () {
+        $(".text2").toggle();
+    })
+    $("#image3").hover(function () {
+        $(".text3").toggle();
+    })
+    $("#image4").hover(function () {
+        $(".text4").toggle();
+    })
+    $("#image5").hover(function () {
+        $(".text5").toggle();
+    })
+    $("#image6").hover(function () {
+        $(".text6").toggle();
+    })
+    $("#image7").hover(function () {
+        $(".text7").toggle();
+    })
+    $("#image8").hover(function () {
+        $(".text8").toggle();
+    })
+
+});
+

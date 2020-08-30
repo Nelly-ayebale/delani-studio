@@ -74,21 +74,17 @@
 .contact .for-form {
     margin-left: 200px;
     /* margin-right: 50px; */
+    padding-top: 100px;
 }
+
  
-.contact p {
-    border: 2px solid white;
-    margin-left: 250px;
-    margin-right: 209px;
-    margin-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 300px;
-    padding-top: 20px;
-    margin-bottom: 100px;
+.comment {
+   margin-left: 250px;
+   padding-top: 30px;
 }
-.contact .for-form{
+/* .contact .for-form{
    padding-top: 100px;
-}
+} */
 #clickable {
     cursor: pointer;
 }
@@ -101,15 +97,137 @@
 #portfolio {
     cursor: pointer;
 }
-.main-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.text {
-    color: black;
+#image1 {
     position: relative;
-    text-align: center;
-    top: 50%;
+
+}
+#image1:hover {
+   opacity: 0.8;
+
+}
+.text1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid white;
     font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image2 {
+    position: relative;
+}
+#image2:hover {
+    opacity: 0.8;
+ 
+ }
+.text2 {
+    position: absolute;
+    color: red;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid red;
+    font-weight: bolder;
+    font-size: 30px;
+    display: none;
+}
+#image3 {
+    position: relative;
+}
+#image3:hover {
+    opacity: 0.8;
+ 
+ }
+.text3 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 5px solid white;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image4 {
+    position: relative;
+}
+#image4:hover {
+    opacity: 0.8;
+ 
+ }
+.text4 {
+    position: absolute;
+    color: red;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid red;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image5 {
+    position: relative;
+}
+#image5:hover {
+    opacity: 0.9;
+ 
+ }
+.text5 {
+    color: red;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid red;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image6 {
+    position: relative;
+}
+#image6:hover {
+    opacity: 0.9;
+ 
+ }
+.text6 {
+    color: red;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid red;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image7 {
+    position: relative;
+}
+#image7:hover {
+    opacity: 0.8;
+ 
+ }
+.text7 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 5px solid white;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#image8 {
+    position: relative;
+}
+#image8:hover {
+    opacity: 0.8;
+ 
+ }
+.text8 {
+    color: red;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 5px solid red;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
 }

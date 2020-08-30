@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap"
         rel="stylesheet">
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -114,42 +115,65 @@
                 <h1>PORTFOLIO</h1>
             </div>
 
-            <div class="col-md-3 ">
-                <img src="./images/portfolio/work4.jpg" class="main-photo">
-                <div class="text">WORK4</div>
+            <div class="col-md-3" id="image1">
+                <div class="text1 text-white">
+                    <h1>IMAGE 1</h1>
+                </div>
+                <img src="./images/portfolio/work4.jpg">
             </div>
 
-            <div class="col-md-3">
-                <img src="./images/portfolio/work3.jpg" class="Ontario">
-                <div class="text">ONTARIO</div>
+            <div class="col-md-3" id="image2">
+                <div class="text2">
+                    <h1>ONTARIO</h1>
+                </div>
+                <img src="./images/portfolio/work3.jpg">
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="image3">
+                <div class="text3 text-white">
+                    <h1>ORANGE NATION</h1>
+                </div>
                 <img src="./images/portfolio/work2.jpg" class="Orange-Nation">
-                <div class="text">ORANGE NATION</div>
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="image4">
+                <div class="text4">
+                    <h1>JIM CARREY</h1>
+                </div>
                 <img src="./images/portfolio/work1.jpg" class="JIM-CARREY">
-                <div class="text">JIM CARREY</div>
+
             </div>
 
         </div>
 
         <div class="row portfolio2 text-center pt-5">
-            <div class="col-md-3">
+            <div class="col-md-3" id="image5">
+                <div class="text5">
+                    <h1>ELENA</h1>
+                </div>
                 <img src="./images/portfolio/work5.jpg" class="ELENA">
-                <div class="text">ELENA</div>
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="image6">
+                <div class="text6">
+                    <h1>SYSTEM</h1>
+                </div>
                 <img src="./images/portfolio/work6.jpg" class="system">
-                <div class="text">SYSTEM</div>
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="image7">
+                <div class="text7 text-white">
+                    <h1>BURNED</h1>
+                </div>
                 <img src="./images/portfolio/work7.jpg" class="burned">
-                <div class="text">BURNED</div>
+
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="image8">
+                <div class="text8">
+                    <h1>BAILEY WONGER</h1>
+                </div>
                 <img src="./images/portfolio/work8.jpg" class="bailey">
-                <div class="text">BAILEY WONGER</div>
+
 
             </div>
         </div>
@@ -164,16 +188,17 @@
             <form>
                 <div class="row">
                     <div class="col-4 for-form text-center text-white">
-                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="name" id="name" class="form-control" value="" placeholder="Name">
                     </div>
                     <div class="col-4 for-form text-center text-white">
-                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="email" id="email" class="form-control" value="" placeholder="Email">
                     </div>
                 </div>
-
+                <div class="comment">
+                    <textarea name="message" rows="12" cols="146" placeholder="Your message here"></textarea>
+                </div>
             </form>
 
-            <p class="text-white">Your message here</p>
 
         </div>
 
