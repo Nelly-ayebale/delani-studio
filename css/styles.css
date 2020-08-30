@@ -19,11 +19,11 @@
     padding-bottom: 30px;
 }
 .about-us h1 {
-    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .about-us p {
-   color: black;
-   font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
 }
 .services {
     height: 500px;
@@ -33,25 +33,24 @@
     background-position: center;
     padding-top: 130px;
 }
-/* .services . {
-    padding-top: 30px;
-} */
+
 .what-they-do h1 {
     padding: 30px;
-    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .design {
     padding-top: 20px;
 }
 .design h1 {
     font-size: 20px;
-    color: black;
+    font-family: 'Signika Negative', sans-serif;
 }
 .portfolio h1 {
-    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .portfolio {
+    margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -86,4 +85,16 @@
 }
 .contact .for-form{
    padding-top: 100px;
+}
+#clickable {
+    cursor: pointer;
+}
+#clickable-dev {
+    cursor: pointer;
+}
+#clickable-pro {
+    cursor: pointer;
+}
+#portfolio {
+    cursor: pointer;
 }
