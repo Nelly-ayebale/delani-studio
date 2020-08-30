@@ -8,5 +8,16 @@ $(document).ready(function () {
     $("#clickable-pro").click(function () {
         $("#pro").toggle();
     })
-})
 
+    $(".text").hide();
+    $(".main-photo").animate({
+        opacity: 1
+    });
+    $(".main-photo").hover(function () {
+        $(this).stop().animate({ opacity: 4 }, 200);
+        $(".text").fadeIn();
+    }, function () {
+        $(this).stop().animate({ opacity: 1 }, 500)
+        $(".text").fadeOut();
+    })
+})

@@ -26,12 +26,15 @@
     font-size: 20px;
 }
 .services {
-    height: 500px;
+    height: auto;
     background-image: url(../images/backgrounds/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 130px;
+}
+.services h1{
+    padding-top: 150px;
 }
 
 .what-they-do h1 {
@@ -97,4 +100,16 @@
 }
 #portfolio {
     cursor: pointer;
+}
+.main-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text {
+    color: black;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-weight: bold;
 }
