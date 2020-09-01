@@ -1,13 +1,24 @@
 $(document).ready(function () {
-    $("#clickable").click(function () {
+    $(".clickable").click(function () {
         $("#DESIGN").toggle();
     })
-    $("#clickable-dev").click(function () {
+    $(".clickable-dev").click(function () {
         $("#dev").toggle();
     })
-    $("#clickable-pro").click(function () {
+    $(".clickable-pro").click(function () {
         $("#pro").toggle();
     })
+
+    $("#DESIGN").click(function () {
+        $(".clickable").toggle();
+    })
+    $("#dev").click(function () {
+        $(".clickable-dev").toggle();
+    })
+    $("#pro").click(function () {
+        $(".clickable-pro").toggle();
+    })
+
     $("#image1").hover(function () {
         $(".text1").toggle();
     })
@@ -39,7 +50,13 @@ function feedback() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var comment = document.getElementsByName('message').value;
-    alert(name + " We have received your message. Thankyou for reaching to us");
 
+    if (name == "" || email == "" || comment == "") {
+        alert("No message received")
+
+    } else {
+        alert(name + " We have received your message. Thankyou for reaching to us");
+
+    }
 }
 
